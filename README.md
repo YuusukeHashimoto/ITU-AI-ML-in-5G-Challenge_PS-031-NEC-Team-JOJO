@@ -17,6 +17,17 @@ The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/A
 # Brief usage
 
 ## (Step1) Decomposition of raw video data into frames
+In this step, the video data is decomposed into frames. [OpenCV](https://opencv.org/) is used for the decomposition process.
+
+example of run: 
+```
+ecomposingVideo_into_Frames.py [path1] [path2]
+```
+
+Description of the arguments given to the program : 
+
+- [*path1*] : Path to the directory containing the video data to be decomposed into frames. If there is more than one video data in the directory, process them all.
+- [*path2*] : The path to the directory that will output the frames decomposed by video. If the directory does not exist, a new one will be created.
 
 ## (Step2) Calculating Time Series Data for Peak Signal to Noise Ratio (PSNR)
 example of run: 
