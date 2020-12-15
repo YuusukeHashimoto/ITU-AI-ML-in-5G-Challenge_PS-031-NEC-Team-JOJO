@@ -46,7 +46,7 @@ Description of the arguments given to the program :
 - [*path2*] : Path to the Directory containing multiple directories in which frames of the received video data exist.
 
 See the image below for an overview of the paths specified by the arguments.
-![Test Image 2](image/step2.png)
+![Test Image 2](image/Step2.png)
 
 ## (Step3) Extraction of information about the frames that make up the original video data
 In this step, the video data is analyzed to obtain frame-by-frame information.
