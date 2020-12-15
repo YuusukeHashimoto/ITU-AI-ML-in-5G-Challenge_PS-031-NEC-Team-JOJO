@@ -51,7 +51,7 @@ Description of the arguments given to the program :
 See the image below for an overview of the paths specified by the arguments.
 <img src="image/Step2.png" width="700px">
 
-[Here](/example/0GHpTnbnTZs_1100kbps_01) is an example of the output data.
+[Here](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031-NEC-Team-JOJO/blob/main/example/0GHpTnbnTZs.mp4.json) is an example of the output data.
 
 ## (Step3) Extraction of information about the frames that make up the original video data
 In this step, the video data is analyzed to obtain frame-by-frame information.
@@ -69,6 +69,8 @@ Description of the arguments given to the program :
 
 See the image below for an overview of the paths specified by the arguments.
 <img src="image/Step3.png" width="700px">
+
+[Here](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031-NEC-Team-JOJO/blob/main/example/0GHpTnbnTZs.mp4.json) is an example of the output data.
 
 ## (Step4) Training the model and estimating the network state
 Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
