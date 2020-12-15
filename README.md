@@ -29,7 +29,7 @@ Description of the arguments given to the program :
 - [*path1*] : Path to the directory containing the video data to be decomposed into frames. If there is more than one video data in the directory, process them all.
 - [*path2*] : The path to the directory that will output the frames decomposed by video. If the directory does not exist, a new one will be created.
 
-![Test Image 1](image/test.png)
+![Test Image 1](image/step1.png)
 
 ## (Step2) Calculating Time Series Data for Peak Signal to Noise Ratio (PSNR)
 In this step, we use the frame group generated in (Step 1). Comparing the frames of the original video and the frames of the received video, the time series data of PSNR is calculated. The PSNR calculation process uses [OpenCV](https://opencv.org/).
