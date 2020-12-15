@@ -82,5 +82,8 @@ Description of the arguments given to the program :
 - [*path3*] : Path to the directory where the JSON data is exist (for test)  
 - [*path4*] : Path to the directory where the PSNR time series data is exist (for test)  
 
+See the image below for an overview of the paths specified by the arguments.
+![Test Image 4](image/Step4.png)
+
 # Performance Evaluation
 Please refer to [report](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031.1_NEC_JOJO/blob/main/ITU_Challenge_FinalConference_JOJO%20.pdf)
