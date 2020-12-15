@@ -48,11 +48,11 @@ Description of the arguments given to the program :
 See the image below for an overview of the paths specified by the arguments.
 ![Test Image 2](image/step2.png)
 
-## (Step3) Extraction of information about the frames that make up a video
+## (Step3) Extraction of information about the frames that make up the original video data
 In this step, the video data is analyzed to obtain frame-by-frame information.
 
 We use [FFmpeg](https://ffmpeg.org/) in the program to extract information from the frames that make up a video.  
-When this program is executed, the information of the processed video data is output in JSON format.  The output file contains frame-by-frame information. In the following steps, we will use the information about frame size from this information.
+When this program is executed, the information of the processed original video data is output in JSON format.  The output file contains frame-by-frame information. In the following steps, we will use the information about frame size from this information.
 
 Example of run: 
 ```
@@ -76,10 +76,10 @@ python3 Solusion.py [path1] [path2] [path3] [path4]
 
 Description of the arguments given to the program : 
 
-- [*path1*] : Path to the directory where the JSON data is stored (for training)  
-- [*path2*] : Path to the directory where the PSNR time series data is stored (for training)  
-- [*path3*] : Path to the directory where the JSON data is stored (for test)  
-- [*path4*] : Path to the directory where the PSNR time series data is stored (for test)  
+- [*path1*] : Path to the directory where the JSON data is exist (for training)  
+- [*path2*] : Path to the directory where the PSNR time series data is exist (for training)  
+- [*path3*] : Path to the directory where the JSON data is exist (for test)  
+- [*path4*] : Path to the directory where the PSNR time series data is exist (for test)  
 
 # Performance Evaluation
 Please refer to [report](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031.1_NEC_JOJO/blob/main/ITU_Challenge_FinalConference_JOJO%20.pdf)
