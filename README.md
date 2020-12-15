@@ -19,7 +19,7 @@ The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/A
 ## (Step1) Decomposition of raw video data into frames
 
 ## (Step2) Calculating Time Series Data for Peak Signal to Noise Ratio (PSNR)
-xample of run: 
+example of run: 
 ```
 CalcPSNR.py [path1] [path2]
 ```
