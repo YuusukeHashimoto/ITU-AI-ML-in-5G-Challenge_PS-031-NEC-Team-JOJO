@@ -28,8 +28,8 @@ Description of the arguments given to the program :
 
 - [*path*] : Path to the directory containing the video files to be processed
 
-We use [FFmpeg](https://ffmpeg.org/) to extract information from the frames that make up a video.  
-In JSON format, information on the processed video data is output. The output file contains frame-by-frame information. In the following steps, we will use the information about frame size from this information.
+We use [FFmpeg](https://ffmpeg.org/) in the program to extract information from the frames that make up a video.  
+When this program is executed, the information of the processed video data is output in JSON format.  The output file contains frame-by-frame information. In the following steps, we will use the information about frame size from this information.
 
 ## (Step4) Model training and network state estimation 
 Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
