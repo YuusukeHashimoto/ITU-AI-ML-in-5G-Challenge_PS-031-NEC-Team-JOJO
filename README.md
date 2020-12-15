@@ -35,3 +35,6 @@ Description of the arguments given to the program
 - [*path2*] : Path to the directory where the PSNR time series data is stored (for training)  
 - [*path3*] : Path to the directory where the JSON data is stored (for test)  
 - [*path4*] : Path to the directory where the PSNR time series data is stored (for test)  
+
+# Performance Evaluation
+Please refer to report 
