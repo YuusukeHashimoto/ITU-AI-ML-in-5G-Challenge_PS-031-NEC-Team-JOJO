@@ -83,11 +83,11 @@ python3 Solusion.py [path1] [path2] [path3] [path4]
 Description of the arguments given to the program : 
 
 - [*path1*] : Path to the directory where the JSON file generated from the original video exists (for training data)    
-You can download it from [here] and use it right away.
+You can download it from [here](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031-NEC-Team-JOJO/tree/main/Data/JSON_Data/JSON_forTraining) and use it right away.
 - [*path2*] : Path to a directory where there are multiple directories containing PSNR time series data files (for training data)   
-You can download it from [here] and use it right away.
+You can download it from [here]() and use it right away.
 - [*path3*] : Path to the directory where the JSON file generated from the original video exists (for test data)    
-You can download it from [here] and use it right away.
+You can download it from [here](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031-NEC-Team-JOJO/tree/main/Data/JSON_Data/JSON_forTest) and use it right away.
 - [*path4*] : Path to a directory where there are multiple directories containing PSNR time series data files (for test data)    
 You can download it from [here] and use it right away.
 
