@@ -7,6 +7,20 @@ You can check the details of the problem statement via [this link](https://www.
 # Date Set
 The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/AI-5G/dataset/theme2-NEC/dataset_and_issue.tar.gz).
 
+
 # Overview
+The source code for our solution can be divided into following two types.
+
+## preprocessing part
+
+### (Step1) Decomposition of raw video data into frames
+
+
+### (Step2)
+
+### (Step3)
+
+## 
+
 
 # Environment
