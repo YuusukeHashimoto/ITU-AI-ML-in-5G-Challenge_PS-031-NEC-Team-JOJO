@@ -51,6 +51,9 @@ See the image below for an overview of the paths specified by the arguments.
 ## (Step3) Extraction of information about the frames that make up a video
 In this step, the video data is analyzed to obtain frame-by-frame information.
 
+We use [FFmpeg](https://ffmpeg.org/) in the program to extract information from the frames that make up a video.  
+When this program is executed, the information of the processed video data is output in JSON format.  The output file contains frame-by-frame information. In the following steps, we will use the information about frame size from this information.
+
 Example of run: 
 ```
 Extract_FrameInformation.sh [path] 
@@ -59,8 +62,9 @@ Description of the arguments given to the program :
 
 - [*path*] : Path to the directory containing the video files to be processed
 
-We use [FFmpeg](https://ffmpeg.org/) in the program to extract information from the frames that make up a video.  
-When this program is executed, the information of the processed video data is output in JSON format.  The output file contains frame-by-frame information. In the following steps, we will use the information about frame size from this information.
+See the image below for an overview of the paths specified by the arguments.
+![Test Image 3](image/Step3.png)
+
 
 ## (Step4) Model training and network state estimation 
 Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
