@@ -22,6 +22,11 @@ The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/A
 ## (Step3) Extraction of information about the frames that make up a video
 We use [FFmpeg](https://ffmpeg.org/) to extract information from the frames that make up a video.
 
+Example of run: 
+```
+Extract_FrameInformation.sh [path] 
+```
+
 ## (Step4) Model training and network state estimation 
 Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
 
