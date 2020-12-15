@@ -13,7 +13,7 @@ You can check the details of the problem statement via [this link](https://www.
 The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/AI-5G/dataset/theme2-NEC/dataset_and_issue.tar.gz).
 
 
-# Overview
+# Brief usage
 
 ## (Step1) Decomposition of raw video data into frames
 
