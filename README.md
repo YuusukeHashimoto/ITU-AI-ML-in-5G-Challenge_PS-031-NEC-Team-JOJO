@@ -25,4 +25,6 @@ We use [FFmpeg](https://ffmpeg.org/) to extract information from the frames that
 ## (Step4) Model training and network state estimation 
 Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
 
-
+```
+python3 Solusion.py [path1] [path2] [path3] [path4]
+```
