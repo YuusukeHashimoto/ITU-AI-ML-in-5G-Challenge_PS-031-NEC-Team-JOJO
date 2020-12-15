@@ -32,7 +32,7 @@ Description of the arguments given to the program :
 - [*path2*] : The path to the directory that will output the frames decomposed by video. If the directory does not exist, a new one will be created.
 
 See the image below for an overview of the paths specified by the arguments.
-![Test Image 1](image/step1.png)
+<img src="image/step1.png" width="700px">
 
 ## (Step2) Calculating Time Series Data for Peak Signal to Noise Ratio (PSNR)
 In this step, we use the frame group generated in (Step 1). Comparing the frames of the original video and the frames of the received video, the time series data of PSNR is calculated. The PSNR calculation process uses [OpenCV](https://opencv.org/).
@@ -48,7 +48,7 @@ Description of the arguments given to the program :
 - [*path2*] : Path to the Directory containing multiple directories in which frames of the received video data exist.
 
 See the image below for an overview of the paths specified by the arguments.
-![Test Image 2](image/Step2.png)
+<img src="image/Step2.png" width="700px">
 
 ## (Step3) Extraction of information about the frames that make up the original video data
 In this step, the video data is analyzed to obtain frame-by-frame information.
@@ -65,8 +65,7 @@ Description of the arguments given to the program :
 - [*path*] : Path to the directory containing the video files to be processed
 
 See the image below for an overview of the paths specified by the arguments.
-![Test Image 3](image/Step3.png)
-
+<img src="image/Step3.png" width="700px">
 
 ## (Step4) Model training and network state estimation 
 Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
@@ -84,7 +83,7 @@ Description of the arguments given to the program :
 - [*path4*] : Path to the directory where the PSNR time series data is exist (for test)  
 
 See the image below for an overview of the paths specified by the arguments.
-![Test Image 4](image/Step4.png)
+<img src="image/Step4.png" width="700px">
 
 # Performance Evaluation
 Please refer to our [report](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031.1_NEC_JOJO/blob/main/ITU_Challenge_FinalConference_JOJO%20.pdf) !!
