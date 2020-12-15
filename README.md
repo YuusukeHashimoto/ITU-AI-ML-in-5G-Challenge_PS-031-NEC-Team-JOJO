@@ -43,6 +43,8 @@ Description of the arguments given to the program :
 - [*path2*] : Path to the directory containing the frames of the received video corresponding to the original video specified by path1.
 
 ## (Step3) Extraction of information about the frames that make up a video
+In this step, the video data is analyzed to obtain frame-by-frame information.
+
 Example of run: 
 ```
 Extract_FrameInformation.sh [path] 
