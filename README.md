@@ -89,7 +89,7 @@ You can use "[Data/JSON_Data/JSON_forTraining](https://github.com/ITU-AI-ML-in-5
 You can use "[Data/PSNR_Data/PSNR_forTraining](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031-NEC-Team-JOJO/tree/main/Data/PSNR_Data/PSNR_forTraining)" in this repository.
 
 - [*path3*] : Path to the directory where the JSON file generated from the original video exists (for test data)    
-You can use "[Data/JSON_Data/JSON_forTest](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031-NEC-Team-JOJO/tree/main/Data/JSON_Data/JSON_forTest)" from this repository.
+You can use "[Data/JSON_Data/JSON_forTest](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031-NEC-Team-JOJO/tree/main/Data/JSON_Data/JSON_forTest)" in this repository.
 
 - [*path4*] : Path to a directory where there are multiple directories containing PSNR time series data files (for test data)    
 You can use "[Data/PSNR_Data/PSNR_forTest](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031-NEC-Team-JOJO/tree/main/Data/PSNR_Data/PSNR_forTest)" in this repository.
