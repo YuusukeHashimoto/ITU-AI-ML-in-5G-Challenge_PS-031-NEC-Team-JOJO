@@ -24,7 +24,7 @@ In this step, the video data is decomposed into frames. [OpenCV](https://opencv.
 
 example of run: 
 ```
-ecomposingVideo_into_Frames.py [path1] [path2]
+python3 DecomposingVideo_into_Frames.py [path1] [path2]
 ```
 
 Description of the arguments given to the program : 
@@ -40,7 +40,7 @@ In this step, we use the frame group generated in (Step 1). Comparing the frames
 
 example of run: 
 ```
-CalcPSNR.py [path1] [path2]
+python3 CalcPSNR.py [path1] [path2]
 ```
 
 Description of the arguments given to the program : 
@@ -59,7 +59,7 @@ When this program is executed, the information of the processed original video d
 
 Example of run: 
 ```
-Extract_FrameInformation.sh [path] 
+sh Extract_FrameInformation.sh [path] 
 ```
 Description of the arguments given to the program : 
 
