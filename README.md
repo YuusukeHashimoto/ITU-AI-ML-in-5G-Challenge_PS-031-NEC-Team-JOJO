@@ -20,12 +20,16 @@ The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/A
 ## (Step2) Calculating Time Series Data for Peak Signal to Noise Ratio (PSNR)
 
 ## (Step3) Extraction of information about the frames that make up a video
-We use [FFmpeg](https://ffmpeg.org/) to extract information from the frames that make up a video.
-
 Example of run: 
 ```
 Extract_FrameInformation.sh [path] 
 ```
+Description of the arguments given to the program : 
+
+- [*path*] : Path to the directory containing the video files to be processed
+
+We use [FFmpeg](https://ffmpeg.org/) to extract information from the frames that make up a video.  
+In JSON format, information on the processed video data is output. The output file contains frame-by-frame information. In the following steps, we will use the information about frame size from this information.
 
 ## (Step4) Model training and network state estimation 
 Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
