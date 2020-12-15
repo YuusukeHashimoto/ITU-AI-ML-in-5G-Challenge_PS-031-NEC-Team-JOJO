@@ -43,7 +43,10 @@ CalcPSNR.py [path1] [path2]
 Description of the arguments given to the program : 
 
 - [*path1*] : Path to the directory where the frames of the original video data reside
-- [*path2*] : Path to the directory containing the frames of the received video corresponding to the original video specified by path1.
+- [*path2*] : Path to the Directory containing multiple directories in which frames of the received video data exist.
+
+See the image below for an overview of the paths specified by the arguments.
+![Test Image 2](image/step2.png)
 
 ## (Step3) Extraction of information about the frames that make up a video
 In this step, the video data is analyzed to obtain frame-by-frame information.
