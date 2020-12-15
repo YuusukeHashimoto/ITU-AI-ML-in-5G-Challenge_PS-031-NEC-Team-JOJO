@@ -37,4 +37,4 @@ Description of the arguments given to the program
 - [*path4*] : Path to the directory where the PSNR time series data is stored (for test)  
 
 # Performance Evaluation
-Please refer to report 
+Please refer to [report](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031.1_NEC_JOJO/blob/main/ITU_Challenge_FinalConference_JOJO%20.pdf)
