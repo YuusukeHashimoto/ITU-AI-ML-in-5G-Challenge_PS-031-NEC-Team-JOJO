@@ -17,6 +17,7 @@ The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/A
 
 
 # Brief usage
+Our solution consists of four major steps.
 
 ## (Step1) Decomposition of raw video data into frames
 In this step, the video data is decomposed into frames. [OpenCV](https://opencv.org/) is used for the decomposition process.
@@ -67,7 +68,7 @@ Description of the arguments given to the program :
 See the image below for an overview of the paths specified by the arguments.
 <img src="image/Step3.png" width="700px">
 
-## (Step4) Model training and network state estimation 
+## (Step4) Training the model and estimating the network state
 Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
 
 Example of run: 
