@@ -2,9 +2,9 @@
 Theme : Network State Estimation by Analyz-ing Raw Video Data (NEC, Japan)
 
 # Environment
-Python 3.7.2
-Keras 2.3.1
-Tensorflow 2.0.0
+- Python 3.7.2
+- Keras 2.3.1
+- Tensorflow 2.0.0
 
 # Problem statement
 You can check the details of the problem statement via [this link](https://www.ieice.org/~rising/AI-5G/#theme1).
