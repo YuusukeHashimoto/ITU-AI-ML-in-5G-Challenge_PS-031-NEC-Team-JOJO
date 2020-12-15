@@ -9,18 +9,15 @@ The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/A
 
 
 # Overview
-The source code for our solution can be divided into following two types.
 
-## preprocessing part
+## (Step1) Decomposition of raw video data into frames
 
-### (Step1) Decomposition of raw video data into frames
+## (Step2) Calculating Time Series Data for Peak Signal to Noise Ratio (PSNR)
 
+## (Step3) Extraction of information about the frames that make up a video
+We use FFmpeg to extract information from the frames that make up a video.
 
-### (Step2)
-
-### (Step3)
-
-## 
-
+## (Step4) Model training and network state estimation 
+Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
 
 # Environment
