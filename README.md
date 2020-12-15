@@ -28,3 +28,7 @@ Training and Testing the model using the PSNR time series data calculated in (St
 ```
 python3 Solusion.py [path1] [path2] [path3] [path4]
 ```
+[path1] : Path to the directory where the JSON data is stored (for training)
+[path2] : Path to the directory where the PSNR time series data is stored (for training)
+[path3] : Path to the directory where the JSON data is stored (for test)
+[path4] : Path to the directory where the PSNR time series data is stored (for test)
