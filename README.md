@@ -1,6 +1,11 @@
 # TU AI/ML in 5G Challenge  (PS-031-NEC, Japan)
 Theme : Network State Estimation by Analyz-ing Raw Video Data (NEC, Japan)
 
+# Environment
+Python 3.7.2
+Keras 2.3.1
+Tensorflow 2.0.0
+
 # Problem statement
 You can check the details of the problem statement via [this link](https://www.ieice.org/~rising/AI-5G/#theme1).
 
@@ -20,4 +25,4 @@ We use [FFmpeg](https://ffmpeg.org/) to extract information from the frames that
 ## (Step4) Model training and network state estimation 
 Training and Testing the model using the PSNR time series data calculated in (Step 2) and the frame size information of the frames that make up the original video extracted in (Step 3).
 
-# Environment
+
