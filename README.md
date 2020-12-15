@@ -19,6 +19,15 @@ The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/A
 ## (Step1) Decomposition of raw video data into frames
 
 ## (Step2) Calculating Time Series Data for Peak Signal to Noise Ratio (PSNR)
+xample of run: 
+```
+CalcPSNR.py [path1] [path2]
+```
+
+Description of the arguments given to the program : 
+
+- [*path1*] : Path to the directory where the frames of the original video data reside
+- [*path2*] : Path to the directory containing the frames of the received video corresponding to the original video specified by path1.
 
 ## (Step3) Extraction of information about the frames that make up a video
 Example of run: 
