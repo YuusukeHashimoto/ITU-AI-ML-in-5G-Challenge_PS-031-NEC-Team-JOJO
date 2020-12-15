@@ -2,7 +2,7 @@
 Theme : Network State Estimation by Analyz-ing Raw Video Data (NEC, Japan)
 
 # Environment
-- OS : macOS Big Sur 11.0.1
+- Operating System : macOS Big Sur 11.0.1
 - Python 3.7.2
 - Keras 2.3.1
 - Tensorflow 2.0.0
