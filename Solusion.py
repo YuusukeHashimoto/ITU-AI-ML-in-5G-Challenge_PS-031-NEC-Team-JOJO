@@ -25,7 +25,7 @@ nExtractedSegments = 100 # Number of segments to be extracted
 nTotalExtractedPSNRData = SegmentSize*nExtractedSegments # Number of total PSNR data to be extracted
 PSNR_Threshold = 50 # The upper limits of PSNR
 batchsize = 16
-epoch = 1
+epoch = 100
 k = 10 # Number of divisions of cross-validation
 
 ###########################################################
