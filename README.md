@@ -17,7 +17,7 @@ The data set of Theme 2 can be downloaded [here](https://www.ieice.org/~rising/A
 
 
 # Brief usage
-Our solution consists of four major steps.
+Our solution consists of four major steps. If you want to skip (Step 1) to (Step 3), you can use the [data](https://github.com/ITU-AI-ML-in-5G-Challenge/PS-031-NEC-Team-JOJO/tree/main/Data) uploaded to this repository.
 
 ## (Step1) Decomposition of raw video data into frames
 In this step, the video data is decomposed into frames. [OpenCV](https://opencv.org/) is used for the decomposition process.
