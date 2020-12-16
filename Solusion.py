@@ -21,7 +21,7 @@ import sys
 
 # Global Variables
 SegmentSize = 30 #Segment size (number of frames)
-nExtractedSegments = 100 # Number of segments to be extracted
+nExtractedSegments = 50 # Number of segments to be extracted
 nTotalExtractedPSNRData = SegmentSize*nExtractedSegments # Number of total PSNR data to be extracted
 PSNR_Threshold = 50 # The upper limits of PSNR
 batchsize = 16
