@@ -1,4 +1,4 @@
-# TU AI/ML in 5G Challenge  (PS-031-NEC, Japan)
+# ITU AI/ML in 5G Challenge  (PS-031-NEC, Japan)
 Theme : Network State Estimation by Analyz-ing Raw Video Data (NEC, Japan)
 
 # Environment
